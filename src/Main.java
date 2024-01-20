@@ -22,7 +22,7 @@ public class Main {
             if (answer != null) {
                 System.out.println("--- Ответ: " + answer);
             } else {
-                throw new JousesssException("Неизвестная ошибка ;1(");  // На случай если вдруг каким-то магическим образом метод calc вернёт null
+                throw new JousesssException("Неизвестная ошибка ;(");  // На случай если вдруг каким-то магическим образом метод calc вернёт null
             }
         }
     }
